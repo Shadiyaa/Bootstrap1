@@ -19,7 +19,7 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .7);
     z-index: -1;
 }
 
@@ -34,8 +34,7 @@ body {
     font-weight: bold;
 }
 
-nav .navbar-nav,
-nav .fa-bars {
+nav .navbar-nav, nav .fa-bars {
     font-size: 1.8rem;
     text-transform: uppercase;
 }
@@ -49,5 +48,18 @@ nav .fa-bars {
 header {
     position: relative;
     height: 60rem;
-    background-image: url('./img/background.jpg');
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+header .btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-size: 2.2rem;
 }
