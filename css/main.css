@@ -63,3 +63,19 @@ header .btn {
 .header-text {
     font-size: 2.2rem;
 }
+
+/* ABOUTUS */
+
+.about-boxes h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-icon {
+    font-size: 3rem;
+}
+
+#aboutus .btn-link {
+    font-size: 1.8rem;
+}
