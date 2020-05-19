@@ -29,16 +29,25 @@ body {
 
 /* NAWIGACJA */
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2.2rem;
     font-weight: bold;
 }
 
-nav .navbar-nav, nav .fa-bars{
+nav .navbar-nav,
+nav .fa-bars {
     font-size: 1.8rem;
     text-transform: uppercase;
 }
 
-nav .fa-bars{
+nav .fa-bars {
     padding: 1rem 2rem;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    height: 60rem;
+    background-image: url('./img/background.jpg');
 }
